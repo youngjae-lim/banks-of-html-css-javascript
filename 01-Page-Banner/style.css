@@ -1,0 +1,40 @@
+html,
+body {
+  margin: 0;
+}
+
+.banner {
+  background: #009579;
+  transition: 0.5s ease;
+}
+
+.banner-content {
+  padding: 16px;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-text {
+  flex-grow: 1;
+  line-height: 1.4;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+}
+
+.banner-close {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.banner-close:focus {
+  outline: none;
+}
+
+.banner-text,
+.banner-close > span {
+  color: #fff;
+}
